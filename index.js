@@ -19,9 +19,9 @@ for (let i=0; i < employees.length; i++)
 }
 
 // //finding largest number of the array
- const number = [2, 4, 5, 8, 8, 10, 12, 16];
-  let largest = number[0]
-  for (const num of marks)
+ const number = [2, 4, 5, 8,  10, 12, 16];
+  let largest = number[6]
+  for (const num of number)
   {
     if (number > largest)
     {
