@@ -11,13 +11,13 @@ if(numbers[i] % 2 == 1){
 console.log(`sum of odd numbers: ${sumOdd}`);
 
 // say hello to all elements in array
-// const employees = ["priya",  "omkar", "jay",  "abhi",  "ram",  "sita"]
+const employees = ["priya",  "omkar", "jay",  "abhi",  "ram",  "sita"]
 
-// for (let i=0; i < employees.length; i++)
-//     {
-//     console.log(`Hello ${employees[i]}`);
-// }
+for (let i=0; i < employees.length; i++)
+    {
+    console.log(`Hello ${employees[i]}`);
+}
 
 // //finding largest number of the array
 // const number = [2, 4, 5, 8, 8, 10, 12, 16];
-
+ 
